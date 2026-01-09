@@ -1,0 +1,17 @@
+name: stolendatamarkets
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - tqdm=4.67.1
+  - matplotlib=3.10.7
+  - pandas=2.3.3
+  - numpy=2.3.4
+  - scipy=1.16.2
+  - pip
+  - requests=2.32.5
+  - seaborn=0.13.2
+  - openpyxl
+  - pip:
+      - statstables
+      - shodan
